@@ -1,0 +1,6 @@
+@EndUserText.label: 'SD for unmanaged root entity'
+define service ZEY_BK_SD_U_TRAVEL {
+  expose ZEY_BK_U_TRAVEL   as Travel;
+  expose ZEY_BK_U_CUSTOMER as Customer;
+  expose ZEY_BK_U_AGENCY   as Agency;
+}
